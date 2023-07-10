@@ -1,8 +1,28 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: Lato;
+}
+.universal-section {
+    text-align: center;
+}
+.universal-section h4 {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+.universal-section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 400px;
 }
 
 /* Banner Section Starts Here */
@@ -56,4 +76,144 @@ body {
     height: 560px;
 }
 /* Banner Section Ends Here */
+
+/* Featured Section Starts Here */
+.feature {}
+.feature ul {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 220px;
+}
+.feature ul li {
+    display: inline;
+    text-decoration: none;
+}
+.feature ul li a {
+    /* padding: 10px ; */
+    color: #272727;
+    font-size: 18px;
+}
+/* .feature ul li:nth-child(1) {
+    margin-right: 120px;
+} */
+.feature ul li:nth-child(2) {
+    margin-left: 200px;
+}
+.feature ul li:nth-child(3) {
+    margin-left: 200px;
+}
+.featured-flowers {
+    display: flex;
+    padding: 30px 170px 0px 170px;
+}
+.flowers {
+    border-radius: 300px 300px 0px 0px;
+    padding: 20px 30px 0px 30px;
+    width: 33.33%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.flowers img {
+    width: 230px;
+    height: 280px;
+    margin-top: 55px;
+}
+.flowers-id1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.flowers-id2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    
+}
+.flowers-id3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.featured-flowers-content {
+    display: flex;
+    justify-content: center;
+}
+.featured-flowers-content p {
+    padding: 10px 120px;
+}
+
+.optional-section {
+    margin: 128px 170px 128px 170px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+}
+.optional-content {
+    justify-content: center;
+    padding: 60px 40px 60px 40px;
+}
+.op1 {
+    margin-left: 70px;
+}
+.op2 {
+    padding-left: 45px;
+}
+.op3 {
+    margin-left: 20px;
+}
+/* Featured Section Ends Here */
+
+/* Sales Section Starts Here */
+.sales {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 0px 80px 0px;
+}
+.sales-section {
+    padding: 30px 170px 0px 170px;
+    display: flex;
+}
+.sales-content {
+    margin-top: 35px;
+    width: 70%;
+    text-align: center;
+}
+.sales-content h4 {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-right: 80px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+.sales-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 150px;
+    margin-left: 100px;
+}
+.sales-content button {
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 18px;
+    border: 0px;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.sales-content button:hover {
+    color: #E55473;
+    background-color: #fff;
+    border: 1px solid #E55473;
+} 
+.sales-image {
+    width: 30%;
+}
+.sales-image img {
+    width: 230px;
+    height: 300px;
+}
+/* Sales Section Ends Here */
 
