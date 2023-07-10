@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
     font-family: Lato;
 }
 .universal-section {
@@ -224,9 +223,7 @@ body {
     margin-bottom: 200px;
 }
 .insta {
-    /* padding: 20px 30px 0px 30px; */
     width: 25%;
-    /* display: flex; */
     justify-content: center;
 }
 .insta img {
@@ -240,7 +237,7 @@ body {
 }
 /* Instagram Section Ends Here */
 
-/* Location Starts */
+/* Location Section Starts Here */
 .location {
     background: rgba(229, 84, 115, 0.05);
     padding: 5px 0px 130px 0px;
@@ -335,7 +332,7 @@ body {
 .location-video {
     width: 40%;
 }
-/* Location Ends */
+/* Location Section Ends Here */
 
 /* Deals Section Starts Here */
 .second-banner {
