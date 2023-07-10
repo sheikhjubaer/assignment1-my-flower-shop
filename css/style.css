@@ -89,13 +89,13 @@ body {
     text-decoration: none;
 }
 .feature ul li a {
-    /* padding: 10px ; */
     color: #272727;
     font-size: 18px;
 }
-/* .feature ul li:nth-child(1) {
-    margin-right: 120px;
-} */
+.feature ul li a:hover {
+    color: #E55473;
+    font-size: 18px;
+}
 .feature ul li:nth-child(2) {
     margin-left: 200px;
 }
@@ -217,3 +217,236 @@ body {
 }
 /* Sales Section Ends Here */
 
+/* Instagram Section Starts Here */
+.featured-insta {
+    display: flex;
+    padding: 30px 170px 0px 170px;
+    margin-bottom: 200px;
+}
+.insta {
+    /* padding: 20px 30px 0px 30px; */
+    width: 25%;
+    /* display: flex; */
+    justify-content: center;
+}
+.insta img {
+    width: 230px;
+    height: 280px;
+    margin: auto;
+    display: block;
+}
+.insta img:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* Instagram Section Ends Here */
+
+/* Location Starts */
+.location {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 5px 0px 130px 0px;
+}
+.location-section {
+    padding: 30px 170px 0px 170px;
+    display: flex;
+}
+.location-content {
+    width: 50%;
+}
+.form-section {
+    background-color: #111010;
+    padding: 30px;
+    margin-right: 10px;
+}
+.wrap-names {
+    display: flex;
+}
+.wrap-names-content {}
+.wrap-names-content p {
+    color: wheat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 30px;
+    /* padding-right: 35px; */
+    text-align: left;
+}
+.wrap-names-content input {
+    height: 25px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 15px;
+}
+.wrap-numbers {}
+.wrap-numbers p {
+    text-align: left;
+    color: wheat;
+}
+.wrap-numbers input {
+    height: 25px;
+    width: 415px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 50px;
+}
+.date-time {
+    display: flex;
+    color: wheat;
+}
+.date p {
+    text-align: left;
+    color: wheat;
+}
+.date input {
+    height: 25px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 15px;
+}
+.time input {
+    height: 25px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 15px;
+}
+.time p {
+    text-align: left;
+}
+.location-content button {
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 18px;
+    border: 0px;
+    color: #fff;
+    margin-right: 370px;
+    margin-top: 25px;
+}
+.location-content button:hover {
+    color: #E55473;
+    background-color: #fff;
+    border: 1px solid #E55473;
+} 
+.location-video {
+    width: 40%;
+}
+/* Location Ends */
+
+/* Deals Section Starts Here */
+.second-banner {
+    width: 990px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.second-banner-description {
+    position: absolute;
+    top: -90px;
+    left: 155px;
+    text-align: center;
+}
+.second-banner-description h4 {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+.second-banner-description p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+.second-banner-description button {
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 18px;
+    border: 0px;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.second-banner-description button:hover {
+    color: #E55473;
+    background-color: #fff;
+    border: 1px solid #E55473;
+} 
+.second-banner-description input {
+    width: 510px;
+    height: 50px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 8px;
+    background: #fff;
+    margin-top: 30px;
+}
+.second-banner-description input[type="email"] {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+}
+/* Deals Section Ends Here */
+
+/* Footer Section Starts Here */
+.footer-section {
+    text-align: center;
+    background: #111010;
+    padding: 80px;
+}
+.footer-section h4 {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
+    /* margin-top: 160px; */
+}
+.footer-section p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 320px;
+}
+.footer-section h6 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Footer Section Ends Here */
